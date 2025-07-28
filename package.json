@@ -1,0 +1,16 @@
+{
+  "name": "qa-automation-task-playwright",
+  "version": "1.0.0",
+  "description": "QA Automation starter project using Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "install:browsers": "playwright install --with-deps"
+  },
+  "keywords": ["playwright", "testing", "qa", "automation"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
