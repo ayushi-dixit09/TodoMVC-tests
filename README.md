@@ -44,9 +44,9 @@ This repo includes a working `bitbucket-pipelines.yml`:
 
 - Runs tests automatically when enabled in Bitbucket
 - Uses Playwright's official Docker image
-- Requires no secrets or config
+  
 
-You're not expected to modify CI unless specifically instructed.
+
 
 ---
 
@@ -57,8 +57,8 @@ You're not expected to modify CI unless specifically instructed.
 | `/tests/todo.spec.ts`    | Initial test script                      |
 | `playwright.config.ts`   | Playwright setup                         |
 | `bitbucket-pipelines.yml`| Optional Bitbucket CI                    |
-| `test-plan.md`           | Your high-level test thinking goes here  |
-| `test-results.md`        | Capture your test run outcomes           |
+| `test-plan.md`           | test cases |
+| `test-results.md`        | test results         |
 | `.gitignore`             | Prevents tracking of generated files     |
 | `package.json`           | Scripts and dependencies                 |
 
